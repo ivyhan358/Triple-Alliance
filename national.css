@@ -1,0 +1,54 @@
+body {
+    background-color: #3e5725;
+    color:  #fdfbd4;
+    font-size: 20px;
+}
+h2 {
+    font-size: 30px;
+}
+.heading img {
+    width: 100%;
+    height: 300px;
+    background-size:100% 100%;
+    margin-top: 60px;
+}
+.gate img {
+    width: 100%;
+    height: 300px;
+    margin: 20px 80px;
+    border: 2px solid #3e5725;
+    border-radius: 10px;
+}
+/* FLower Festival */
+.festival .text {
+    margin-left: -40px;
+    margin-top: 30px;
+}
+.festival img {
+    width: 100%;
+    height: 300px;
+    margin-top: -200px;
+    border: 2px solid #3e5725;
+    border-radius: 10px;
+}
+/* event */
+.card hr {
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: -10px;
+    width: 90px;
+    color: #fdfbd4;
+    border: 2px solid;
+}
+.card h2 {
+    text-align: center;
+}
+.card {
+    margin-left: 60px;
+}
+.card img {
+    width: 100%;
+    height: 300px;
+    border: 2px solid #fdfbd4;
+    border-radius: 50%;
+}

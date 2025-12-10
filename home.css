@@ -1,0 +1,95 @@
+body {
+    background-color: #3e5725 ;
+    color: #fdfbd4;
+}
+.hero {
+    width: 100%;
+    height: 400px;
+    background: url(Image2/kandawgyi.webp);
+    background-size: 100% 100%;
+    position:relative;
+    margin-top: 60px;
+    z-index: -1;
+}
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    background-color: #fdfbd44b;
+    transform: translate(-50%, -50%);
+    padding: 15px 30px;
+    color: #32461d;
+}
+.hero button {
+    padding: 8px;
+    border-radius: 7px;
+}
+/* our goal & purpose */
+.park_img img {
+    width: 500px;
+    height: 300px;
+}
+.park_img {
+    margin:0 15px;
+    padding:10px;
+    margin-bottom:15px;
+}
+.row h2 {
+    font-size: 30px;
+    color: #fdfbd4;
+}
+.row p {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #fdfbd4;
+}
+/* Important */
+.park_img2 img {
+    width: 500px;
+    height: 300px;
+    margin-top: 60px;
+}
+.park_img2 {
+    margin: 0 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.text2 {
+    margin: 10px;
+}
+/* Created */
+@media screen and (max-width: 600px) {
+    .hero {
+        width: 100%;
+        background-size: 100% 100%;
+    }
+    .row {
+        margin: auto;
+    }
+}
+/* photos */
+.row2 h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.card img {
+    width:100%;
+    height:300px;
+}
+.row2 .card1 {
+    margin-left: 90px;
+}
+.card {
+    margin:0 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding:10px;
+    padding:30px 0;
+    border-radius: 5px;
+    border: 2px solid #fdfbd4;
+}
+.card:hover {
+    box-shadow: 0 4px 8px 0 #fdfbd4, 0 6px 20px 0 #fdfbd4;
+}

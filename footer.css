@@ -1,0 +1,31 @@
+footer {
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fdfbd4; 
+    background-color: #1b270e;
+    margin-top: 60px;
+}
+.row {
+    margin-left: 10px;
+}
+hr {
+    width: 40px;
+    margin-left: 0;
+}
+body ul {
+    padding: 0;
+}
+.connect .icon i{
+    border:1px solid #3e5725;
+    padding: 6px;
+    border-radius: 5px;
+    color: #fdfbd4;
+}
+.row .Tools a {
+    text-decoration: none;
+    color: #fdfbd4;
+}
+.row .Site a {
+    text-decoration: none;
+    color: #fdfbd4;
+}

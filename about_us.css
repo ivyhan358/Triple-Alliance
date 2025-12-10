@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: #FFF5CC;
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    color: #2E4A2F;
+}
+
+.mission-img img {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 15px;
+    margin-top: 60px;
+}
+.section-title{
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #2E4A2F;
+}
+
+.member-card {
+    background-color: #79ba63; 
+    width: 280px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.contact-title{
+    text-align:center;
+    font-size:28px;
+    color:#2E4A2F;
+    margin-bottom: 20px;
+}
+
+.contact-photo {
+    width: 100%;
+    max-width: 350px;
+    margin-left: 80px;
+}
+
+.contact-box {
+    border: 2px solid black;
+    padding: 20px;
+    width: 580px;
+    margin-left:10px;
+    background-color:#FFF5CC;
+    display:flex;
+}
+.form-part {
+    width: 100%;
+    border: none;
+    border-bottom:2px solid #FFF5CC;
+    margin-bottom: 20px;
+    color:black;
+    padding: 5px;
+}
+
+.info-part {
+    width: 40%;
+    padding-right: 50px;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.info-title {
+    font-weight: bold;
+    margin-top: 15px;
+}
+.line {
+    width: 90px;
+    height: 2px;
+    background: black;
+    margin: 10px 0 20px 0;
+}
+
+.big-line {
+    width: 240px;
+    height: 2px;
+    background: black;
+    margin: 10px 0 20px 0;
+}
+
+.send-button {
+    background: #2E4A2F;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    margin-top: 30px;
+}
